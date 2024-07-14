@@ -14,7 +14,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term konsole
+set $term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -288,16 +288,20 @@ exec --no-startup-id /usr/lib/pam_kwallet_init
 
 # Define the commands to run on each workspace
 
-assign [app_id="org.kde.konsole"] workspace 1
+assign [app_id="foot"] workspace 1
 assign [class="Brave-browser"] workspace 2
 assign [class="thunderbird"] workspace 3
 assign [app_id="org.kde.dolphin"] workspace 4
 assign [app_id="org.telegram.desktop"] workspace 5
+assign [app_id="org.kde.elisa"] workspace 6
+assign [app_id="org.kde.ktorrent"] workspace 7
 
 exec $term -e tmux
 exec brave
 exec thunderbird
 exec dolphin
 exec telegram-desktop
+exec elisa
+exec torrent
 
 include /etc/sway/config.d/*
