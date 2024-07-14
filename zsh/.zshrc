@@ -31,7 +31,9 @@ export PATH="/home/user/.local/bin:$PATH"
 
 export SSH_ASKPASS=ksshaskpass
 
-export TERM=xterm-256color
+if [ -z "$TMUX" ]; then
+    export TERM=xterm-256color
+fi
 
 alias ls='ls --color=auto'
 alias ll='ls -la'

@@ -302,6 +302,6 @@ exec thunderbird
 exec dolphin
 exec telegram-desktop
 exec elisa
-exec torrent
+exec ktorrent
 
 include /etc/sway/config.d/*
