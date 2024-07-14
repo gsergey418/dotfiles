@@ -31,10 +31,6 @@ export PATH="/home/user/.local/bin:$PATH"
 
 export SSH_ASKPASS=ksshaskpass
 
-export QT_QPA_PLATFORMTHEME="kde"
-
-export XDG_CURRENT_DESKTOP="KDE"
-
 alias ls='ls --color=auto'
 alias ll='ls -la'
 alias l.='ls -d .* --color=auto'
