@@ -1,0 +1,15 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Notification Messages]
+CloseAllTabs=true
+
+[UiSettings]
+ColorScheme=
