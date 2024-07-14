@@ -31,6 +31,8 @@ export PATH="/home/user/.local/bin:$PATH"
 
 export SSH_ASKPASS=ksshaskpass
 
+export TERM=xterm-256color
+
 alias ls='ls --color=auto'
 alias ll='ls -la'
 alias l.='ls -d .* --color=auto'
