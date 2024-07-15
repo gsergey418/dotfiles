@@ -296,7 +296,7 @@ assign [app_id="org.telegram.desktop"] workspace 5
 assign [app_id="org.kde.elisa"] workspace 6
 assign [app_id="org.kde.ktorrent"] workspace 7
 
-exec $term -e tmux
+exec $term
 exec brave
 exec thunderbird
 exec dolphin
