@@ -31,6 +31,8 @@ export PATH="/home/user/.local/bin:$PATH"
 
 export SSH_ASKPASS=ksshaskpass
 
+export ZVM_VI_SURROUND_BINDKEY=s-prefix
+
 if [ -z "$TMUX" ]; then
     export TERM=xterm-256color
 fi
