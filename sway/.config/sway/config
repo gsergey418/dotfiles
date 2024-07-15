@@ -23,7 +23,7 @@ set $menu dmenu_path | wmenu -b -f "JetBrains Mono Nerd Font 10" -n cdd6f4 -N 1e
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/user/Pictures/wg/evening-sky.png fill
+output * bg ~/Pictures/wg/evening-sky.png fill
 #
 # Example configuration:
 #
