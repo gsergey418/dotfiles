@@ -1,2 +1,3 @@
 export QT_QPA_PLATFORMTHEME="kde"
 export XDG_CURRENT_DESKTOP="KDE"
+export XDG_SESSION_TYPE="wayland"
