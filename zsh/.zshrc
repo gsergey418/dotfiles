@@ -29,8 +29,6 @@ export EDITOR="nvim"
 
 export PATH="/home/user/.local/bin:$PATH"
 
-export SSH_ASKPASS=ksshaskpass
-
 export ZVM_VI_SURROUND_BINDKEY=s-prefix
 
 if [ -z "$TMUX" ]; then
