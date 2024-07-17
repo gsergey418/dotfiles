@@ -293,15 +293,15 @@ assign [class="Brave-browser"] workspace 2
 assign [class="thunderbird"] workspace 3
 assign [app_id="org.kde.dolphin"] workspace 4
 assign [app_id="org.telegram.desktop"] workspace 5
-assign [app_id="foot"] workspace 6
-assign [app_id="org.qbittorrent.qBittorrent"] workspace 7
+assign [app_id="org.kde.elisa"] workspace 6
+assign [app_id="org.kde.ktorrent"] workspace 7
 
 exec $term
 exec brave
 exec thunderbird
 exec dolphin
 exec telegram-desktop
-exec $term -e cmus
-exec qbittorrent
+exec elisa
+exec ktorrent
 
 include /etc/sway/config.d/*
