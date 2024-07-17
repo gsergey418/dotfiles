@@ -39,6 +39,8 @@ alias ls='ls --color=auto'
 alias ll='ls -la'
 alias l.='ls -d .* --color=auto'
 
+alias vim='nvim'
+
 eval "$(starship init zsh)"
 
 source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
