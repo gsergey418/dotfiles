@@ -291,11 +291,17 @@ exec --no-startup-id /usr/lib/pam_kwallet_init
 assign [app_id="foot"] workspace 1
 assign [class="Brave-browser"] workspace 2
 assign [class="thunderbird"] workspace 3
-assign [app_id="org.telegram.desktop"] workspace 4
+assign [app_id="thunar"] workspace 4
+assign [app_id="org.telegram.desktop"] workspace 5
+assign [app_id="rhythmbox"] workspace 6
+assign [app_id="com.transmissionbt.transmission*"] workspace 7
 
 exec $term
 exec brave
 exec thunderbird
+exec thunar
 exec telegram-desktop
+exec rhythmbox
+exec transmission-gtk
 
 include /etc/sway/config.d/*
