@@ -25,6 +25,15 @@ function auto_source_poetry_venv() {
   fi
 }
 
+# History file for zsh
+HISTFILE=~/.zsh_history
+
+# How many commands to store in history
+HISTSIZE=10000
+SAVEHIST=10000
+# Share history in every terminal session
+setopt SHARE_HISTORY
+
 export EDITOR="nvim"
 
 export PATH="/home/user/.local/bin:$PATH"
