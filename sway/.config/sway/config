@@ -27,7 +27,7 @@ output * bg ~/Pictures/wg/evening-sky.png fill
 #
 # Example configuration:
 #
-output HDMI-A-1 resolution 1920x1080 position 1920,0
+output HDMI-A-2 resolution 1920x1080 position 1920,0
 output eDP-1 disable
 
 #
@@ -285,15 +285,15 @@ exec --no-startup-id /usr/lib/pam_kwallet_init
 
 assign [app_id="foot"] workspace 1
 assign [class="Brave-browser"] workspace 2
-assign [app_id="thunderbird"] workspace 3
+assign [class="thunderbird"] workspace 3
 assign [app_id="thunar"] workspace 4
-assign [app_id="telegram-desktop_telegram-desktop"] workspace 5
+assign [app_id="org.telegram.desktop"] workspace 5
 assign [app_id="rhythmbox"] workspace 6
 assign [app_id="com.transmissionbt.transmission*"] workspace 7
 assign [app_id="virt-manager"] workspace 8
 
 exec $term
-exec brave-browser
+exec brave
 exec thunderbird
 exec thunar
 exec telegram-desktop
