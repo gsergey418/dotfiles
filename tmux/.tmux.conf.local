@@ -392,14 +392,11 @@ unbind C-b
 set -g prefix C-b
 bind C-b send-prefix
 
-if-shell '[ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]' 'set -g prefix C-a' 'bind C-a send-prefix'
-
 # if you don't want Oh my tmux! to alter a binding, use #!important
 # bind c new-window -c '#{pane_current_path}' #!important
 
 # move status line to top
 set -g status-position top
-if-shell '[ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]' 'set -g status-position bottom'
 
 
 # -- tpm -----------------------------------------------------------------------
