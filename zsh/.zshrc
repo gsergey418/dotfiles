@@ -41,6 +41,7 @@ export PATH="/home/user/.local/bin:$PATH"
 export ZVM_VI_SURROUND_BINDKEY=s-prefix
 
 bindkey '^H' backward-kill-word
+bindkey -e
 
 if [ -z "$TMUX" ]; then
     export TERM=xterm-256color
