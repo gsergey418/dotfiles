@@ -27,7 +27,7 @@ output * bg ~/Pictures/wg/evening-sky.png fill
 #
 # Example configuration:
 #
-output HDMI-A-2 resolution 1920x1080 position 1920,0
+output HDMI-A-2 resolution 1920x1080 position 0,0
 output eDP-1 disable
 
 #
