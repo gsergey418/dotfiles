@@ -288,8 +288,7 @@ assign [app_id="thunderbird"] workspace 3
 assign [app_id="thunar"] workspace 4
 assign [app_id="telegram-desktop_telegram-desktop"] workspace 5
 assign [app_id="rhythmbox"] workspace 6
-assign [app_id="org.keepassxc.KeePassXC"] workspace 7
-assign [app_id="virt-manager"] workspace 8
+assign [app_id="virt-manager"] workspace 7
 
 exec $term
 exec brave-browser
@@ -297,7 +296,6 @@ exec thunderbird
 exec thunar
 exec telegram-desktop
 exec rhythmbox
-exec keepassxc
 exec virt-manager
 
 include /etc/sway/config.d/*
