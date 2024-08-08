@@ -225,7 +225,7 @@ font JetBrains Mono Nerd Font 10
 gaps inner 5
 gaps outer 5
 
-include catppuccin-mocha
+include catppuccin-latte
 
 # target                 title     bg    text   indicator  border
 client.focused           $lavender $base $text  $rosewater $lavender

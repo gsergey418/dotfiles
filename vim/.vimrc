@@ -214,8 +214,8 @@ call plug#end()
 " [[ Configure plugins ]]
 " Set colorscheme
 set termguicolors
-colorscheme catppuccin_mocha
-let g:airline_theme = 'catppuccin_mocha'
+colorscheme catppuccin_latte
+let g:airline_theme = 'catppuccin_latte'
 
 
 " [[ Configure vim-which-key ]]
